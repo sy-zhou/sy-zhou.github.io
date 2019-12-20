@@ -1,3 +1,3 @@
 # Personal Website
 
-Check it out: sy-zhou.github.io
+Check it out: <https://sy-zhou.github.io>
