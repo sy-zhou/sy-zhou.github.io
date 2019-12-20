@@ -1,0 +1,121 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat;
+  background-color: transparent;
+  background-size: 1px auto, 1px auto, 1px auto, 1px auto, 1px auto, 1px auto;
+  background-position: 70px, calc(20% + 42px), calc(40% + 14px), calc(60% - 14px), calc(80% - 42px), calc(100% - 70px);
+  background-attachment: fixed;
+}
+
+.darkMode {
+  height: 100%;
+  background: linear-gradient(0deg, #525252, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #525252, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #525252, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #525252, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #525252, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #525252, 100%, transparent 100%) no-repeat;
+  background-color: #2F2C37;
+  background-size: 1px auto, 1px auto, 1px auto, 1px auto, 1px auto, 1px auto;
+  background-position: 70px, calc(20% + 42px), calc(40% + 14px), calc(60% - 14px), calc(80% - 42px), calc(100% - 70px);
+  color: white;
+  background-attachment: fixed;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+.main {
+  margin: 0;
+  padding: 0 70px 0 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: inherit;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 70px;
+}
+.header img {
+  border: 0;
+  width: 4.5vh;
+}
+
+.icon-bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-bar a {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.dark-light-switcher {
+  color: inherit;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70px;
+  text-align: center;
+}
+
+.dark-light-switcher button {
+  all: unset;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.intro {
+  margin: 160px 0 160px 0;
+  font-size: 70px;
+}
+
+.about, .skills, .experience {
+  display: flex;
+  flex-wrap: wrap;
+}
+.label {
+  color: inherit;
+  flex-basis: calc(20%);
+}
+.content {
+  color: inherit;
+  flex-basis: calc(60%);
+  margin-bottom: 40px;
+}
+.about a {
+  color: #878789;
+  text-decoration-line: underline;
+}
+.skills .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills h3 {
+  flex-basis: calc(33.33%);
+  font-weight: inherit;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
