@@ -12,9 +12,16 @@
   <title>Sally Zhou</title>
 </head>
 <body>
-  <!-- <div class="header"><img src="Images/s.jpg" alt="temp logo"></div> -->
-  <div class="dark-light-switcher">
-    <button id="dark-light-switcher-button"><i class="fas fa-adjust"></i></button>
+  <div class="header">
+    <nav class="nav">
+      <!-- <img src="Images/s.jpg" alt="temp logo"> -->
+      <div class="nav-item"><a href="#about">About</a></div>
+      <div class="nav-item"><a href="#projects">Projects</a></div>
+      <div class="nav-item"><a href="sally-zhou-resume.pdf">Resume</a></div>
+    </nav>
+    <div class="dark-light-switcher">
+      <button id="dark-light-switcher-button" title="Light/Dark Mode" onclick="toggleMode()"><i class="fas fa-adjust"></i></button>
+    </div>
   </div>
 
   <div class="main">
@@ -22,45 +29,31 @@
       <div>Sally Zhou</div>
     </section>
   
-    <section class="about">
-      <div class="label">ABOUT</div>
+    <section class="about" id="about">
+      <h3 class="label">ABOUT</h3>
       <div class="content">
         <p>Hi there! My name is Sally. I’m a computer science student at the University of Waterloo. I'm driven by passion and curiosity, and a desire to explore the world. In my spare time, I enjoy reading and experimenting with design. I'm currently working on some fun projects and looking for internship opportunities for Summer 2020 (May-Aug). Please reach out, I'd love to chat!</p>
-        <p><a href="sally-zhou-resume.pdf">Resume</a></p>
       </div>
     </section>
-    
-    <!-- <section class="skills">
-      <div class="label">LANGUAGES</div>
-      <div class="content list">
-        <h3>Javascript</h3>
-        <h3>C/C++</h3>
-        <h3>Ruby</h3>
-        <h3>HTML</h3>
-        <h3>CSS</h3>
-      </div>
-      <div class="label"></div>
-      <div class="label">TOOLS/FRAMEWORKS</div>
-      <div class="content list">
-          <h3>Ember</h3>
-          <h3>React</h3>
-          <h3>Node.js</h3>
-          <h3>Ruby on Rails</h3>
-          <h3>Git</h3>
+
+    <section class="projects" id="projects">
+        <h3 class="label">PROJECTS</h3>
+        <div class="projects-list">
+          <div class="project p-dark">
+            <div class="project-thumbnail"><img src="Images/friendly_tab_screenshot.png" alt="project screenshot"></div>
+            <div class="project-name">Friendly Tab Chrome Extension</div>
+          </div>
+
+          <div class="project p-light">
+            <div class="project-thumbnail"><img src="Images/watan_screenshot.png" alt="project screenshot"></div>
+            <div class="project-name">Watan</div>
+          </div>
         </div>
     </section>
   
-    <section class="experience">
-      <div class="label">EXPERIENCE</div>
-      <div class="content">
-        <div>Software Developer</div>
-        <div>RewardOps</div>
-      </div>
-    </section> -->
-  
   </div>
   
-  <div class="icon-bar">
+  <div class="footer">
     <a href="https://linkedin.com/in/sy-zhou/"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/sy-zhou"><i class="fab fa-github"></i></a>
   </div>
