@@ -8,6 +8,7 @@ body {
   background-position: 70px, calc(20% + 42px), calc(40% + 14px), calc(60% - 14px), calc(80% - 42px), calc(100% - 70px);
   background-attachment: fixed;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .darkMode {
@@ -17,7 +18,6 @@ body {
   background-size: 1px auto, 1px auto, 1px auto, 1px auto, 1px auto, 1px auto;
   background-position: 70px, calc(20% + 42px), calc(40% + 14px), calc(60% - 14px), calc(80% - 42px), calc(100% - 70px);
   color: #FFFFFF;
-  background-attachment: fixed;
 }
 
 *, :before, :after {
@@ -60,6 +60,9 @@ img {
   width: calc(100% - 140px);
   position: fixed;
   top: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
 }
 /* .header img {
   border: 0;
@@ -145,12 +148,12 @@ img {
   width: 60%;
   height: 20%;
   overflow: hidden;
-  position: relative;
   margin-bottom: 30px;
 }
 .project-thumbnail {
   background: #F2DEBD;
   overflow: hidden;
+  position: relative;
 }
 .p-light {
   color: white;
@@ -165,11 +168,19 @@ img {
   left: 16px;
 }
 .project img {
-  opacity: 50%;
+  opacity: 0.8;
   height: 250px;
   object-fit: cover;
-  /* border: 1px solid black; */
 }
-.project:hover .project-thumbnail {
-  background: #E2C18B;
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  transition: .5s ease;
+  background-color: #F2DEBD;
+}
+.project:hover .overlay {
+  opacity: 0.8;
 }
