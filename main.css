@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #EAEAEA, 100%, transparent 100%) no-repeat;
+  background: linear-gradient(0deg, #FFF5D3, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #FFF5D3, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #FFF5D3, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #FFF5D3, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #FFF5D3, 100%, transparent 100%) no-repeat, linear-gradient(0deg, #FFF5D3, 100%, transparent 100%) no-repeat;
   background-color: transparent;
   background-size: 1px auto, 1px auto, 1px auto, 1px auto, 1px auto, 1px auto;
   background-position: 70px, calc(20% + 42px), calc(40% + 14px), calc(60% - 14px), calc(80% - 42px), calc(100% - 70px);
@@ -36,7 +36,10 @@ section {
 
 h3 {
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #4F7178;
+  /* opacity: 40%; */
   margin: 0;
 }
 
@@ -78,9 +81,9 @@ img {
 .nav-item {
   flex-basis: 20%;
 }
-/* .nav-item a:hover {
-  text-decoration: underline;
-} */
+.nav-item a {
+  box-shadow: inset 0 -7px 0 #F2DEBD;
+}
 
 .dark-light-switcher {
   color: inherit;
@@ -118,7 +121,9 @@ img {
 
 .intro {
   margin: 160px 0 160px 0;
-  font-size: 70px;
+  font-size: 100px;
+  font-family: 'Avenir Next';
+  font-weight: bold;
 }
 
 .about {
@@ -126,7 +131,7 @@ img {
   flex-wrap: wrap;
 }
 .label {
-  color: inherit;
+  /* color: inherit; */
   flex-basis: 20%;
 }
 .content {
