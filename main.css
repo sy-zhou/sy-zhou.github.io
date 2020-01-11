@@ -126,7 +126,7 @@ img {
   font-weight: bold;
 }
 
-.about {
+.about, .projects {
   display: flex;
   flex-wrap: wrap;
 }
@@ -146,7 +146,6 @@ img {
   align-items: center;
 }
 .project {
-  width: 60%;
   height: 20%;
   overflow: hidden;
   margin-bottom: 30px;
