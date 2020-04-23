@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  width: 40vw;
+  @media all and (max-width: 1024px) {
+    width: 80vw;
+  }
+  margin: auto;
+  color: black;
+  text-align: center;
+}
+
+.intro {
+  text-align: justify;
+  font-family: 'Avenir Next', 'Prompt';
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.project {
+  img {
+    height: 130%;
+  }
+  width: 30%;
+  height: 12vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  a {
+    font-size: 20px;
+    margin: 2px;
+  }
+}
