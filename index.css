@@ -3,7 +3,8 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  margin: 0; }
+  margin: 0;
+  background: #f7f8fb; }
 
 h1 {
   font-size: 36px;
@@ -32,7 +33,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
-  margin-bottom: 25px; }
+  margin-bottom: 35px; }
 
 .project {
   width: 30%;
@@ -47,5 +48,3 @@ a {
 .footer a {
   font-size: 20px;
   margin: 2px; }
-
-/*# sourceMappingURL=index.css.map */
