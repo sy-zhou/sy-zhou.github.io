@@ -7,8 +7,14 @@ body {
   background: #f7f8fb; }
 
 h1 {
-  font-size: 36px;
-  font-family: 'Montserrat', sans-serif; }
+  font-size: 45px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2f2f2f;
+  margin: 0;
+  text-rendering: optimizelegibility; }
+
+p {
+  margin: 20px 0; }
 
 a {
   text-decoration: none;
@@ -17,7 +23,7 @@ a {
 .main {
   width: 40vw;
   margin: auto;
-  color: black;
+  color: #2f2f2f;
   text-align: center; }
   @media all and (max-width: 1024px) {
     .main {
@@ -46,5 +52,5 @@ a {
     height: 130%; }
 
 .footer a {
-  font-size: 20px;
-  margin: 2px; }
+  font-size: 22px;
+  margin: 0; }
