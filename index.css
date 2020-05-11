@@ -42,12 +42,14 @@ a {
   margin-bottom: 35px; }
 
 .project {
-  width: 30%;
+  width: 45%;
   height: 12vw;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center; }
+  .project a {
+    height: inherit; }
   .project img {
     height: 130%; }
 
