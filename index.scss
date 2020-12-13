@@ -4,12 +4,12 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background: #f7f8fb;
+  background: #e1e6f3;
 }
 
 h1 {
   font-size: 45px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #2f2f2f;
   margin: 0;
   text-rendering: optimizelegibility;
@@ -25,42 +25,20 @@ a {
 }
 
 .main {
-  width: 40vw;
+  width: 45vw;
   @media all and (max-width: 1024px) {
-    width: 80vw;
+    width: 70vw;
   }
   margin: auto;
+  padding: 35px 30px;
+  border-radius: 15px;
   color: #2f2f2f;
-  text-align: center;
+  background: #f2f5fa;
 }
 
 .intro {
   text-align: justify;
   font-family: 'Avenir Next', 'Prompt';
-}
-
-.projects-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 25px;
-  margin-bottom: 35px;
-}
-
-.project {
-  a {
-    height: inherit;
-  }
-  img {
-    height: 130%;
-  }
-  width: 45%;
-  height: 12vw;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer {
